@@ -7,6 +7,10 @@ android {
     namespace 'id.ac.umn.tiptime'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "id.ac.umn.tiptime"
         minSdk 24
